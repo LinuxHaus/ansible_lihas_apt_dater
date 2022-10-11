@@ -1,0 +1,11 @@
+---
+- name: install software
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - apt-dater-host
+  loop_control:
+    loop_var: item
+  become: true
+...
