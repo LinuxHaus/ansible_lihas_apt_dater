@@ -1,15 +1,17 @@
 galaxy_info:
+  role_name: lihas_apt_dater
+  namespace: lihas
   author: Adrian Reyer <lihas@lihas.de>
   description: install apt-dater-host
   company: LiHAS - Adrian Reyer
 
   license: GPL-3.0-or-later
 
-  min_ansible_version: 2.9
+  min_ansible_version: "2.9"
 
   platforms:
-  - name: Debian
-    versions:
-    - all
+    - name: Debian
+      versions:
+        - all
   galaxy_tags: []
 dependencies: []

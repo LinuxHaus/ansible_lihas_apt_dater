@@ -1,5 +1,6 @@
 ---
-- hosts: '*'
+- name: Run
+  hosts: '*'
   remote_user: root
   roles:
     - lihas_apt_dater

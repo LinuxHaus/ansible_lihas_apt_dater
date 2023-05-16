@@ -1,6 +1,6 @@
 ---
-- name: install software
-  apt:
+- name: Install software
+  ansible.builtin.apt:
     name: "{{ item }}"
     state: present
   loop:
